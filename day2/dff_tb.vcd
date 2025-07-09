@@ -1,0 +1,81 @@
+$date
+	Thu Jul 10 00:36:38 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module dff_tb $end
+$var wire 1 ! dff_synrst $end
+$var wire 1 " dff_norst $end
+$var wire 1 # dff_asyrst $end
+$var reg 1 $ clk $end
+$var reg 1 % d $end
+$var reg 1 & rst $end
+$scope module DFF $end
+$var wire 1 $ clk $end
+$var wire 1 % d $end
+$var wire 1 & rst $end
+$var reg 1 # dff_asyrst $end
+$var reg 1 " dff_norst $end
+$var reg 1 ! dff_synrst $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1&
+0%
+0$
+0#
+x"
+x!
+$end
+#5000
+0"
+0!
+0&
+1$
+#10000
+0$
+#15000
+1#
+1%
+1$
+#20000
+0$
+#25000
+1"
+1!
+1$
+#30000
+0$
+#35000
+1$
+#40000
+0#
+1&
+0$
+#45000
+0!
+1$
+#50000
+0$
+#55000
+1#
+0&
+1$
+#60000
+0$
+#65000
+1!
+1$
+#70000
+0$
+#75000
+1$
