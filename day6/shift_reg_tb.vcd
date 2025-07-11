@@ -1,0 +1,109 @@
+$date
+	Fri Jul 11 12:55:11 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module shift_reg_tb $end
+$var wire 4 ! sr [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # d_in $end
+$var reg 1 $ rst $end
+$scope module SR $end
+$var wire 1 " clk $end
+$var wire 1 # d_in $end
+$var wire 1 $ rst $end
+$var wire 4 % sr [3:0] $end
+$var wire 4 & sr_next [3:0] $end
+$var reg 4 ' sr_prev [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+1$
+0#
+0"
+b0 !
+$end
+#5000
+1"
+#10000
+0"
+#15000
+0$
+1"
+#20000
+b1 &
+1#
+0"
+#25000
+b11 &
+b1 !
+b1 %
+b1 '
+1"
+#30000
+b10 &
+0#
+0"
+#35000
+b100 &
+b10 !
+b10 %
+b10 '
+1"
+#40000
+b101 &
+1#
+0"
+#45000
+b1011 &
+b101 !
+b101 %
+b101 '
+1"
+#50000
+0"
+#55000
+b111 &
+b1011 !
+b1011 %
+b1011 '
+1"
+#60000
+0"
+#65000
+b1111 &
+b111 !
+b111 %
+b111 '
+1"
+#70000
+0"
+#75000
+b1111 !
+b1111 %
+b1111 '
+1"
+#80000
+0"
+#85000
+1"
+#90000
+0"
+#95000
+1"
+#100000
+0"
+#105000
+1"
