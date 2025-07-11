@@ -1,0 +1,132 @@
+$date
+	Fri Jul 11 15:59:49 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module binToOneHot_tb $end
+$var wire 16 ! onehot [15:0] $end
+$var parameter 32 " BIN $end
+$var parameter 32 # ONEHOT $end
+$var reg 4 $ bin [3:0] $end
+$scope module BTOH $end
+$var wire 4 % bin [3:0] $end
+$var wire 16 & onehot [15:0] $end
+$var parameter 32 ' BIN $end
+$var parameter 32 ( ONEHOT $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 ) i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 (
+b100 '
+b10000 #
+b100 "
+$end
+#0
+$dumpvars
+b0 )
+b1 &
+b0 %
+b0 $
+b1 !
+$end
+#10000
+b10 !
+b10 &
+b1 $
+b1 %
+b1 )
+#20000
+b100 !
+b100 &
+b10 $
+b10 %
+b10 )
+#30000
+b1000 !
+b1000 &
+b11 $
+b11 %
+b11 )
+#40000
+b10000 !
+b10000 &
+b100 $
+b100 %
+b100 )
+#50000
+b100000 !
+b100000 &
+b101 $
+b101 %
+b101 )
+#60000
+b1000000 !
+b1000000 &
+b110 $
+b110 %
+b110 )
+#70000
+b10000000 !
+b10000000 &
+b111 $
+b111 %
+b111 )
+#80000
+b100000000 !
+b100000000 &
+b1000 $
+b1000 %
+b1000 )
+#90000
+b1000000000 !
+b1000000000 &
+b1001 $
+b1001 %
+b1001 )
+#100000
+b10000000000 !
+b10000000000 &
+b1010 $
+b1010 %
+b1010 )
+#110000
+b100000000000 !
+b100000000000 &
+b1011 $
+b1011 %
+b1011 )
+#120000
+b1000000000000 !
+b1000000000000 &
+b1100 $
+b1100 %
+b1100 )
+#130000
+b10000000000000 !
+b10000000000000 &
+b1101 $
+b1101 %
+b1101 )
+#140000
+b100000000000000 !
+b100000000000000 &
+b1110 $
+b1110 %
+b1110 )
+#150000
+b1000000000000000 !
+b1000000000000000 &
+b1111 $
+b1111 %
+b1111 )
+#160000
+b10000 )
